@@ -1,0 +1,66 @@
+.ComputerScreen {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 198px;
+    padding: 4px;
+    background-image: url("../images/maps/telaW97.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 1px solid var(--menu-border-color);
+    color: var(--menu-font-color);
+    /* font-family: 'Ribeye', cursive; */
+  }
+  .ComputerScreen_p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .ComputerScreen span {
+    opacity: 0;
+  }
+  
+  .ComputerScreen span.revealed {
+    opacity: 1;
+  }
+  
+  .ComputerScreen_button {
+
+    margin: 0;
+    color: white;
+    margin-top: 3px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 5px;  
+    padding: 1px;
+    background: #be3a2f;
+    width: 20px;
+    border: none;
+    border-radius: 0% 0% 10% 0%;
+    font-family: inherit;
+    cursor: pointer;
+  
+    position: absolute;
+    right: 2px;
+    top: 0;
+  }
+
+  .icon{
+    width: 3vh;
+    /* background-color: red; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+  }
+  .icon p{
+    text-align: center;
+    font-size: 6px;
+    margin-top: 0;
+  }
+
+  .icon:hover{
+    cursor: pointer;
+  }

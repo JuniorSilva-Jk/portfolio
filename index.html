@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Valdean Portifolio</title>
+     <!-- Font -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="./styles/global.css" type="text/css" rel="stylesheet">
+    <link href="./styles/TextMessage.css" type="text/css" rel="stylesheet">
+    <link href="./styles/ComputerScreen.css" type="text/css" rel="stylesheet">
+    <link href="./styles/Quadro.css" type="text/css" rel="stylesheet">
+    <link href="./styles/Books.css" type="text/css" rel="stylesheet">
+    <link href="./styles/SceneTransition.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon" />
+    
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="game-container">
+      <canvas class="game-canvas" width="352" height="198"></canvas>
+    </div>
+
+    <!-- Scripts -->
+    <script src="utils.js"></script>
+    <script src="DirectionInput.js"></script>
+    <script src="./overworld/Overworld.js"></script>
+    <script src="./gameObjects/CharacterObject.js"></script>
+    <script src="./gameObjects/Objects.js"></script>
+    <script src="Person.js"></script>
+    <script src="./sprites/SpriteCharacters.js"></script>
+    <script src="./sprites/SpriteObjects.js"></script>
+    <script src="./overworld/OverworldMap.js"></script>
+    <script src="./overworld/OverworldEvent.js"></script>
+    <script src="./scenesAndTexts/TextMessage.js"></script>
+    <script src="./screen/ComputerScreen.js"></script>
+    <script src="./screen/ObjectsMuseum.js"></script>
+    <script src="./screen/Book.js"></script>
+    <script src="KeyPressListener.js"></script>
+    <script src="Hud.js"></script>
+    <script src="./scenesAndTexts/RevealingText.js"></script>
+    <script src="./scenesAndTexts/SceneTransition.js"></script>
+    <script src="init.js"></script>
+
+  </body>
+</html>
