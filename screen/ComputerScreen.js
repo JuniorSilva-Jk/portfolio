@@ -13,7 +13,7 @@ class ComputerScreen {
       this.element.innerHTML = (`
       <button class="ComputerScreen_button">X</button>
         <div class="ComputerScreen_p">
-            <a class= "icon" href="http://localhost:5173/" target="_blank">
+            <a class= "icon" href="https://bicjrproject.netlify.app/" target="_blank">
               <img src="./images/icons/tuboDeEnsaio.png" alt="Icon Project"> <br>
               <p class="UnderIcon">Bolsa de Iniciação Ciêntífica Júnior</p>    
             </a>
