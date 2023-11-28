@@ -151,7 +151,7 @@ class Book {
                 </div>
                 <div class="back">
                     <div id="b3" class="back-content">
-                        <a href="#" target="_blank" onclick="baixarArquivo('./images/pdf/Curriculo.pdf')">Baixar</a>
+                        <a href="#" onclick="baixarArquivo('./images/pdf/Curriculo.pdf')">Baixar</a>
                     </div>
                 </div>
             </div>
