@@ -20,7 +20,7 @@ class Objeto {
     }
   
     mount(map) {
-      console.log("Mounting Objects!", this.id, (this.x/16), (this.y/16))
+      // console.log("Mounting Objects!", this.id, (this.x/16), (this.y/16))
       this.isMounted = true;
   
       //If we have a behavior, kick off after a short delay

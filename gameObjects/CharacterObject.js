@@ -22,7 +22,7 @@ class CharacterObject {
   }
 
   mount(map) {
-    console.log("Mounting Characters!")
+    // console.log("Mounting Characters!")
 
     this.isMounted = true;
     //map.addWall(this.x, this.y);
