@@ -118,27 +118,27 @@ async init() {
  this.startGameLoop();
 
    this.map.startCutscene([
-
     
-    // { type: "textMessage", text: `Olá!` },
-    // { type: "textMessage", text: "Meu nome é Valdean Júnior, sou engenheiro de software"},
-    // { type: "textMessage", text: "Esté é um pequeno projeto que fiz para apresentação do meu portfólio"},
-    // { type: "textMessage", text: "Antes de tudo algumas observações!"},
-    // { type: "textMessage", text: "Para controlar o mini jr por favor utilize as setas de seu teclado"},
-    // { who: "hero", type: "walk",  direction: "up" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "right" },
-    // { who: "hero", type: "walk",  direction: "up" },
-    // { who: "hero", type: "stand",  direction: "down" },
-    // { type: "textMessage", text: "Para interagir com objetos utilize a tecla 'Enter' "},
-    // { who: "hero", type: "stand",  direction: "up" },
-    // { type: "textMessage", text: "Pressione 'Enter' "},
+    { type: "textMessage", text: `Olá!` },
+    { type: "textMessage", text: "Meu nome é Valdean Júnior, sou engenheiro de software"},
+    { type: "textMessage", text: "Esté é um pequeno projeto que fiz para apresentação do meu portfólio"},
+    { type: "textMessage", text: "Antes de tudo algumas observações!"},
+    { type: "textMessage", text: "Para controlar o mini jr por favor utilize as setas de seu teclado, ou as teclas W A S D"},
+    { who: "hero", type: "walk",  direction: "up" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "right" },
+    { who: "hero", type: "walk",  direction: "up" },
+    { who: "hero", type: "stand",  direction: "down" },
+    { type: "textMessage", text: "As setas no chão indicam os objetos interativos..."},
+    { type: "textMessage", text: "Para interagir utilize a tecla 'Enter' "},
+    { who: "hero", type: "stand",  direction: "up" },
+    { type: "textMessage", text: "Pressione 'Enter' "},
     
   ])
 

@@ -117,16 +117,15 @@ window.OverworldMaps = {
   Bedroom: {
     id:"Bedroom",
     lowerSrc: "./images/maps/Bedroom.png",
-    upperSrc: "./images/maps/New_Bedroom_Upper.png",
+    upperSrc: "",
+    // upperSrc: "./images/maps/New_Bedroom_Upper.png",
     configObjects: {
       hero: {
         type: "Person",
         isPlayerControlled: true,
-        // x: utils.withGrid(5),
-        // y: utils.withGrid(6),
-        x: utils.withGrid(14),
-        y: utils.withGrid(7),
-        direction: "right",
+        x: utils.withGrid(5),
+        y: utils.withGrid(6),
+        direction: "down",
       },
       pc: {
         type: "Objeto",
@@ -163,7 +162,8 @@ window.OverworldMaps = {
         talking: [
               {
                 events: [
-                  // { type: "textMessage", text: `Este é meu currículo com a descrição de todas as minhas experiências nestes 4 anos como programador` },
+                  { type: "textMessage", text: `Este é um resumo do meu currículo com a descrição de minhas experiências nestes 4 anos como programador` },
+                  { type: "textMessage", text: `Ao final deste livro sua versão completa estará disponível para download` },
                   { type: "book", text: "livros"},
                 ]
               }

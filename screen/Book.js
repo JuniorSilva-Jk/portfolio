@@ -112,13 +112,13 @@ class Book {
                                 <li> CSS </li>
                                 <li> Git </li>
                                 <li> Vue.Js </li>
+                                <li> Docker </li>
                                 <li> AWS </li>
                                 <li> Google Cloud </li>
                                 <li> Linux </li>
                                 <li> Windows </li>
                                 <li> PHP </li>
                                 <li> Java </li>
-                                <li> SQL </li>
                             </ul>
                     </div>
                 </div>
@@ -126,6 +126,7 @@ class Book {
                     <div id="b3" class="back-content">
                         <h3> HABILIDADES E COMPETÊNCIAS </h3>
                         <ul>
+                            <li> SQL </li>
                             <li> WordPress </li>
                             <li> JMeter </li>
                             <li> JUnit </li>
@@ -146,12 +147,23 @@ class Book {
                 <div class="front">
                     <div id="b3" class="front-content">
                         <h3> CONQUISTAS E DISTINÇÕES </h3>
-
+                        <ul>
+                            <li> <b> 19ª Semana Nacional de Ciência e Tecnologia do DF </b> <br> <b>Função: </b> Sub Coordenador Geral do evento  </li>
+                            <li> <b> Rio Innovation Week </b> <br> <b> Função: </b> Organizador do espaço destinado ao MCTI </li>
+                            <li> <b> 18ª Semana Nacional de Ciência e Tecnologia do DF </b> <br> <b> Função: </b> Realizar manutenção de softwares nos computadores locais  </li>
+                            <li> <b> 2º Seminário Internacional de Astronomia e Astronáutica MCTI </b> <br> <b> Função: </b> Organização geral do evento e comunicação e interação com palestrantes internacionais </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="back">
                     <div id="b3" class="back-content">
-                        <a href="#" onclick="baixarArquivo('./images/pdf/Curriculo.pdf')">Baixar</a>
+                        <h3> CONQUISTAS E DISTINÇÕES </h3>
+                        <ul>
+                            <li> <b> 1º Seminário Internacional de Astronomia e Astronáutica MCTI </b> <br> <b> Função: </b> Criador e curador da plataforma siastro.mcti.gov.br  </li>
+                            <li> <b> 1º Encontro Nacional de Popularização da Ciência  </b> <br> <b>Função: </b> Criador e curador da plataforma www.fneps.mctic.gov.br </li>
+
+                            </ul>
+                        <a href="#" onclick="baixarArquivo('./images/pdf/ValdeanJunior_Curriculo.pdf')">Download</a>
                     </div>
                 </div>
             </div>
@@ -203,8 +215,19 @@ function myFunction() {
     // Event Listener
     prevBtn.addEventListener("click", goPrevPage);
     nextBtn.addEventListener("click", goNextPage);
+    
+    document.body.addEventListener('keydown', function (event) {
+        const key = event.key;
+        //const code = event.keyCode;
+        if(key === "ArrowRight"){
+            goNextPage();
+        }
+        if(key === "ArrowLeft"){
+            goPrevPage();
+        }
+    });
 
-    // Business Logic
+        // Business Logic
     let currentLocation = 1;
     let numOfPapers = 4;
     let maxLocation = numOfPapers + 1;
@@ -227,7 +250,6 @@ function myFunction() {
     }
 
     function goNextPage() {
-        console.log(book)
         if(currentLocation < maxLocation) {
             switch(currentLocation) {
                 case 1:
