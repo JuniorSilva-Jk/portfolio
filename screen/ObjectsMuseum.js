@@ -12,21 +12,6 @@ class Quadros {
       this.element = document.createElement("div");
       this.element.classList.add("Quadro");
 
-      if(this.text === 'quadro1'){
-        this.element.innerHTML = (`
-        <button class="Quadro_button">X</button>
-        <img class="Quadro_1" src="./images/maps/Banner even3.jpg">
-           
-        `)
-      }
-      
-      if(this.text === 'quadro2'){
-        this.element.innerHTML = (`
-        <button class="Quadro_button">X</button>
-        <img class="Quadro_1" src="./images/maps/Banner SIASTRO.jpeg">       
-        `)
-      }
-
       if(this.text === 'medalha'){
         this.element.innerHTML = (`
         <div class="divMedalha"> 
