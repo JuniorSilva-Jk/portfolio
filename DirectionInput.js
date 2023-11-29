@@ -32,7 +32,6 @@ class DirectionInput {
         this.heldDirections.splice(index, 1);
       }
     })
-
   }
 
 }
