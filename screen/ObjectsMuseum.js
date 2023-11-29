@@ -31,7 +31,7 @@ class Quadros {
         this.element.innerHTML = (`
         <div class="divMedalha"> 
           <button class="Quadro_button">X</button>
-          <img class="medalha" src="./images/museum/medalha.jpg">
+          <img class="medalha" src="./images/museum/Medalha.jpg">
         </div>   
         `)
       }
