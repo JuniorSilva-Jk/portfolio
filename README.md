@@ -6,7 +6,7 @@
 </section>
 
 ## Introdução
-<p> J Life in Pixel é um projeto feito para apresentar meu portifólio em forma de jogo, suas principais linguagens são Js, Html e Css. Atualmente ele econtra-se incompleto, estou trabalhando a cada dia para inserir mais conteúdos, criar novas funcionalidades e melhorar seu desempenho </p>
+<p> J Life in Pixel é um projeto feito para apresentar meu portifólio em forma de jogo, suas principais linguagens são Js, Html e Css. Atualmente ele econtra-se em andamento, estou trabalhando a cada dia para inserir mais conteúdos, criar novas funcionalidades e melhorar seu desempenho </p>
 
 ## Como Surgiu? 
 
