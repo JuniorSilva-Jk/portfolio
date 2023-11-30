@@ -429,7 +429,7 @@ window.OverworldMaps = {
         talking: [
           {
             events: [
-              { type: "textMessage", text: `Bem Vindo ao museu de artes blablabla!` },
+              { type: "textMessage", text: `Bem Vindo ao J Museum of Fine Arts!` },
               { type: "textMessage", text: `Hoje o acesso a todas as nossas exposições está liberado` },
               { type: "textMessage", text: `Tenha um ótimo passeio!` },
             ]
