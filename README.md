@@ -1,6 +1,6 @@
 <section align="center">
 <h1>  J Life in pixel </h1>
-  <a href="https://juniorsilva-jk.github.io/portfolio/" target="_blank">
+  <a href="https://juniorsilva-jk.github.io/portfolio/">
     <img src="/images/CapaGitHub.png" alt="J Life in Pixel"><https://juniorsilva-jk.github.io/portfolio/>
   </a>
 </section>
